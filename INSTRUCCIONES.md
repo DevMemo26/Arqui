@@ -7,16 +7,18 @@
 Necesitas tener Java 21 instalado **en esta ruta exacta**:
 
 ```
-C:\Program Files\Java\jdk-21\
+C:\Program Files\Java\jdk-21\  ------------> el nombre del archivo jdk-21 puede cambiar depende de la instalacion, ejemplo C:\Program Files\Java\jdk-21.0.11
 ```
 
 Para verificar, abre CMD y ejecuta:
 
 ```cmd
-"C:\Program Files\Java\jdk-21\bin\java.exe" -version
+"C:\Program Files\Java\jdk-21\bin\java.exe" -version       ------------> el nombre del archivo jdk-21 puede cambiar depende de la instalacion, ejemplo "C:\Program Files\Java\jdk-21.0.11\bin\java.exe" -version 
 ```
 
 Debe mostrar: `java version "21.x.x"`
+
+NOTA: click derecho a los .bat y editar, ahi cambiale la ruta por la que tengan ustedes el java en su disco C, Ej "C:\Program Files\Java\jdk-21.0.11\bin\java.exe"
 
 Si no tienes Java 21, descárgalo e instálalo desde:
 https://www.oracle.com/java/technologies/downloads/#java21
@@ -64,7 +66,7 @@ Necesitas dos ventanas de CMD abiertas al mismo tiempo.
 
 ```cmd
 cd C:\SERVIDOR\APPLICATION
-Update.bat
+Update.bat o .\Update.bat
 ```
 
 Debe mostrar esto y quedarse esperando:
@@ -82,7 +84,7 @@ Debe mostrar esto y quedarse esperando:
 
 ```cmd
 cd C:\PROYECTO\APPLICATION
-SIERRAVP.bat
+SIERRAVP.bat o .\SIERRAVP.bat 
 ```
 
 Verás el menú:
@@ -112,7 +114,7 @@ En la misma ventana (o una nueva en la misma carpeta):
 
 ```cmd
 cd C:\PROYECTO\APPLICATION
-Send.bat
+Send.bat o .\Send.bat
 ```
 
 Verás algo como:
