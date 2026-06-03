@@ -62,7 +62,6 @@ CREATE TABLE Fact_Rendimiento_Academico (
 );
 
 CREATE TABLE Fact_Perfil_Estudiante (
-    -- Llaves Foráneas (Dimensiones)
     Alumno_SK INT NOT NULL,
     Tiempo_SK INT NOT NULL,
     
